@@ -30,4 +30,5 @@ public class Player : MonoBehaviour, IAgent, IHittable
             Debug.Log("Player hit");
         }
     }
+
 }

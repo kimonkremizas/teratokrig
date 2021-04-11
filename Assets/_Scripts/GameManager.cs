@@ -27,4 +27,10 @@ public class GameManager : MonoBehaviour
         DOTween.KillAll();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void QuitGame()
+    {
+        DOTween.KillAll();
+        Application.Quit();
+    }
 }

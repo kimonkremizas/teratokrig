@@ -378,6 +378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1057b7f353484fb4fbb7f1aea9b336ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <OnBackwardMovement>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &3713485216644270838
 AudioSource:
   m_ObjectHideFlags: 0

@@ -24,7 +24,8 @@ public class Resource : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
-        audioSource.Play();yield return new WaitForSeconds(audioSource.clip.length);
+        audioSource.Play();
+        yield return new WaitForSeconds(audioSource.clip.length);
         Destroy(gameObject);
 
     }

@@ -329,6 +329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1057b7f353484fb4fbb7f1aea9b336ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <OnBackwardMovement>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &2850316537604628184
 AudioSource:
   m_ObjectHideFlags: 0
@@ -480,7 +483,7 @@ MonoBehaviour:
   - {x: -0.21612358, y: -0.25587475, z: 0}
   m_ShapePathHash: -398552667
   m_Mesh: {fileID: 0}
-  m_InstanceId: -1902
+  m_InstanceId: -73878
 --- !u!1 &2850316537988460654
 GameObject:
   m_ObjectHideFlags: 0

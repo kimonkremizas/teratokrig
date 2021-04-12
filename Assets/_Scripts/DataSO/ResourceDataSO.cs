@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Item/ResourceData")]
+[CreateAssetMenu(menuName = "Items/ResourceData")]
 public class ResourceDataSO : ScriptableObject
 {
     [field: SerializeField]

@@ -381,7 +381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1968294821
 Transform:
   m_ObjectHideFlags: 0
@@ -954,6 +954,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1057b7f353484fb4fbb7f1aea9b336ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <OnBackwardMovement>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5333732474403105217}
+        m_TargetAssemblyTypeName: AgentAnimations, Assembly-CSharp
+        m_MethodName: SetWalkSpeed
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!82 &5333732474403105244
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1100,7 +1115,7 @@ MonoBehaviour:
   - {x: -0.34674692, y: -0.3864981, z: 0}
   m_ShapePathHash: 755301919
   m_Mesh: {fileID: 0}
-  m_InstanceId: -1792
+  m_InstanceId: -73726
 --- !u!1 &5333732474520746083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1592,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5333732474403105218}
+        m_TargetAssemblyTypeName: AgentRenderer, Assembly-CSharp
+        m_MethodName: CheckIfBackwardMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   <OnPointerPositionChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls:
@@ -1789,7 +1816,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -1801,7 +1828,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &5333732475701938018
 GameObject:
@@ -1882,7 +1909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5333732475770357312
 Transform:
   m_ObjectHideFlags: 0

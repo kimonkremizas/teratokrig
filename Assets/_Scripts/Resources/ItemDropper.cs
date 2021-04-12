@@ -10,9 +10,9 @@ public class ItemDropper : MonoBehaviour
     [SerializeField]
     private List<ItemSpawnData> itemToDrop = new List<ItemSpawnData>();
     float[] itemWeights;
-    
+
     [SerializeField]
-    [Range(0,1)]
+    [Range(0, 1)]
     private float dropChance = 0.5f;
 
     private void Start()
@@ -23,7 +23,7 @@ public class ItemDropper : MonoBehaviour
     public void DropItem()
     {
         var dropVariable = Random.value;
-        if (dropVariable<dropChance)
+        if (dropVariable < dropChance)
         {
             int index = GetRandomWeightIndex(itemWeights);
             Instantiate(itemToDrop[index].itemPrefab, transform.position, Quaternion.identity);
@@ -58,7 +58,7 @@ public class ItemDropper : MonoBehaviour
 [Serializable]
 public struct ItemSpawnData
 {
-    [Range(0,1)]
+    [Range(0, 1)]
     public float rate;
     public GameObject itemPrefab;
 }

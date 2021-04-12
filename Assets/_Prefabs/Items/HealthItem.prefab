@@ -62,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 7097946592899228757, guid: cddb1df680613224db35f6a54bc603fc, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5e5ea395931c5e24888933a732bb7510, type: 3}
+      objectReference: {fileID: 21300000, guid: 0cd67eaa5ee4d3940a9b9bb4d952f184, type: 3}
     - target: {fileID: 7097946592899228759, guid: cddb1df680613224db35f6a54bc603fc, type: 3}
       propertyPath: m_Name
       value: HealthItem

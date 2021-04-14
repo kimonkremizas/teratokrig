@@ -47,7 +47,7 @@ public class Player : MonoBehaviour, IAgent, IHittable
     {
         if (dead == false)
         {
-            Health--;
+            Health = Health - damage;
             OnGetHit?.Invoke();
             if (Health <= 0)
             {

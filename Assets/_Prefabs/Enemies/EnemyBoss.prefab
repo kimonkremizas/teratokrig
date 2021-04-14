@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749232200fe3c9e4a97d5babeb9eff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 0.8
+  <Distance>k__BackingField: 1.5
 --- !u!1 &3713485216631267677
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749232200fe3c9e4a97d5babeb9eff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 5
+  <Distance>k__BackingField: 7
 --- !u!1 &3713485217337489914
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,8 +638,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05032129, y: -0.000000005998764}
-  m_Size: {x: 0.59935784, y: 0.23666245}
+  m_Offset: {x: -0.99349165, y: -1.1880038}
+  m_Size: {x: 0.5874081, y: 0.43975073}
   m_Direction: 1
 --- !u!1 &3713485217369371038
 GameObject:
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749232200fe3c9e4a97d5babeb9eff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 5
+  <Distance>k__BackingField: 7
 --- !u!1 &3713485217681589296
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,7 +808,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c65763683d1d19b428c3be36e43ada70, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -907,8 +907,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pitchRandomness: 0.1
-  hitClip: {fileID: 8300000, guid: 739174ccbca42d34c88579866c1e36aa, type: 3}
-  deathClip: {fileID: 8300000, guid: 918d5cae1ca984a47abfda660d6ef771, type: 3}
+  hitClip: {fileID: 8300000, guid: 9b17c4d504f9255498e04d29317a7dfc, type: 3}
+  deathClip: {fileID: 8300000, guid: 748161e28fc16934ca751cb8405202f0, type: 3}
   voiceLineClip: {fileID: 8300000, guid: 7e425c8c1ba7f3a49afb051e87677bf3, type: 3}
 --- !u!1 &3713485217755410710
 GameObject:
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4914e3e4bca4dd2488b89bb4659b5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MovementData>k__BackingField: {fileID: 11400000, guid: 8602d78b929c6274f879355f9a4e5b0d, type: 2}
+  <MovementData>k__BackingField: {fileID: 11400000, guid: 0ba5d7238952ed74fa5f1bafe73f08c0, type: 2}
   currentVelocity: 0
   <OnVelocityChange>k__BackingField:
     m_PersistentCalls:
@@ -1016,8 +1016,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.050321102, y: -0.01629126}
-  m_Size: {x: 0.60935783, y: 1.0055363}
+  m_Offset: {x: -0.79871786, y: 0.059447765}
+  m_Size: {x: 1.219867, y: 2.8582897}
   m_Direction: 0
 --- !u!114 &3713485217755410696
 MonoBehaviour:
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36c369dafba628440a7035452ad589ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <EnemyData>k__BackingField: {fileID: 11400000, guid: fa5be5c159be4fb4a9e3005bbf4cdf14, type: 2}
+  <EnemyData>k__BackingField: {fileID: 11400000, guid: dea5e6ce0caa1924f97e5de0430b2c03, type: 2}
   <Health>k__BackingField: 50
   <enemyAttack>k__BackingField: {fileID: 0}
   <OnGetHit>k__BackingField:
@@ -1187,6 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <AttackDelay>k__BackingField: 1
+  animator: {fileID: 3713485216644270836}
 --- !u!1 &3713485217820044272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749232200fe3c9e4a97d5babeb9eff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 0.8
+  <Distance>k__BackingField: 1.5
 --- !u!1 &3713485217840594769
 GameObject:
   m_ObjectHideFlags: 0

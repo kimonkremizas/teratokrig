@@ -24,13 +24,13 @@ public class DistanceDecision : AIDecision
         return aiActionData.TargetSpotted;
     }
 
-    //protected void OnDrawGizmos()
-    //{
-    //    if (UnityEditor.Selection.activeObject == gameObject)
-    //    {
-    //        Gizmos.color = Color.green;
-    //        Gizmos.DrawWireSphere(transform.position, Distance);
-    //        Gizmos.color = Color.white;
-    //    }
-    //}
+    protected void OnDrawGizmos()
+    {
+        if (UnityEditor.Selection.activeObject == gameObject)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transform.position, Distance);
+            Gizmos.color = Color.white;
+        }
+    }
 }

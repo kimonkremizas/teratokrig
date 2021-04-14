@@ -532,7 +532,7 @@ MonoBehaviour:
   - {x: -0.21612358, y: -0.25587475, z: 0}
   m_ShapePathHash: -398552667
   m_Mesh: {fileID: 0}
-  m_InstanceId: -2354
+  m_InstanceId: 131972
 --- !u!1 &3713485216646907905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,6 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <AttackDelay>k__BackingField: 1
+  animator: {fileID: 3713485216644270836}
 --- !u!1 &3713485217820044272
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MagicWeaponData
   m_EditorClassIdentifier: 
   <BulletData>k__BackingField: {fileID: 11400000, guid: 1918087d218b67f448038747cebcd9a9, type: 2}
-  <AmmoCapacity>k__BackingField: 200
+  <AmmoCapacity>k__BackingField: 30
   <AutomaticFire>k__BackingField: 1
   <WeaponDelay>k__BackingField: 0.4
   <SpreadAngle>k__BackingField: 0

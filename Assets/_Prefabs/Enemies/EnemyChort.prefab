@@ -532,7 +532,7 @@ MonoBehaviour:
   - {x: -0.21612358, y: -0.25587475, z: 0}
   m_ShapePathHash: -398552667
   m_Mesh: {fileID: 0}
-  m_InstanceId: 131972
+  m_InstanceId: 210154
 --- !u!1 &3713485216646907905
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +810,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pitchRandomness: 0.1
   hitClip: {fileID: 8300000, guid: 739174ccbca42d34c88579866c1e36aa, type: 3}
-  deathClip: {fileID: 8300000, guid: 918d5cae1ca984a47abfda660d6ef771, type: 3}
+  deathClip: {fileID: 8300000, guid: 252bb6e601a09ab4c8f74a6e5c29a740, type: 3}
   voiceLineClip: {fileID: 8300000, guid: 7e425c8c1ba7f3a49afb051e87677bf3, type: 3}
 --- !u!1 &3713485217755410710
 GameObject:

@@ -532,7 +532,7 @@ MonoBehaviour:
   - {x: -0.21612358, y: -0.25587475, z: 0}
   m_ShapePathHash: -398552667
   m_Mesh: {fileID: 0}
-  m_InstanceId: 132254
+  m_InstanceId: 204490
 --- !u!1 &2850316537988460654
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pitchRandomness: 0.1
   hitClip: {fileID: 8300000, guid: 739174ccbca42d34c88579866c1e36aa, type: 3}
-  deathClip: {fileID: 8300000, guid: 918d5cae1ca984a47abfda660d6ef771, type: 3}
+  deathClip: {fileID: 8300000, guid: 15712f2ea8947d047bbd6a8c32f727a9, type: 3}
   voiceLineClip: {fileID: 8300000, guid: 7e425c8c1ba7f3a49afb051e87677bf3, type: 3}
 --- !u!1 &2850316538708157752
 GameObject:

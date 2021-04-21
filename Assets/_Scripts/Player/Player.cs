@@ -8,6 +8,8 @@ public class Player : MonoBehaviour, IAgent, IHittable
     [SerializeField] 
     private int maxHealth;
 
+
+
     private int health;
 
     public int Health
@@ -31,6 +33,9 @@ public class Player : MonoBehaviour, IAgent, IHittable
 
     [field: SerializeField]
     public UnityEvent OnDeath { get; set; }
+
+    [field: SerializeField]
+    public UnityEvent OnDungeonEnter { get; set; }
 
     private void Awake()
     {
@@ -88,6 +93,12 @@ public class Player : MonoBehaviour, IAgent, IHittable
                 }
 
             }
+        }
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Door"))
+        {
+            OnDungeonEnter?.Invoke();
+            Debug.Log("Entered Dungeon");
         }
     }
 }

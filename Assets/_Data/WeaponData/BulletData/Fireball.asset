@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fireball
   m_EditorClassIdentifier: 
   <bulletPrefab>k__BackingField: {fileID: 7724186792403402414, guid: 61dfd994e2ab6aa46bf594d972159384, type: 3}
-  <BulletSpeed>k__BackingField: 5
+  <BulletSpeed>k__BackingField: 12
   <Damage>k__BackingField: 3
   <Friction>k__BackingField: 0
   <Bounce>k__BackingField: 0
